@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Shubham Bhardwaj — Portfolio
 
 A static portfolio website served by Nginx in Docker. GitHub Actions builds an image, pushes it to Amazon ECR, and deploys it to a single EC2 instance through AWS Systems Manager (SSM).
@@ -109,7 +108,3 @@ Push to `main` to deploy. You can also start the workflow manually from the `mai
 - The workflow does not store long-lived AWS access keys in GitHub.
 - The EC2 instance must have outbound connectivity to ECR and SSM, and its instance profile must be able to pull from the repository.
 - This setup serves HTTP on port 80 from one EC2 instance. A replacement causes a brief interruption. For public production traffic, place an HTTPS load balancer (or another TLS-terminating front end) in front of the instance and plan for high availability separately.
-=======
-# Portfolio_live_with_ci_cd_pipeline
-Automated production-ready CI/CD pipeline for a containerized HTML/CSS portfolio deployed on AWS EC2 using GitHub Actions and Docker.
->>>>>>> d53c4ba2364918970775f661850e2684dc70b31d
