@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06152f"/>
+      <stop offset=".52" stop-color="#0a2850"/>
+      <stop offset="1" stop-color="#071a38"/>
+    </linearGradient>
+    <pattern id="small-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" stroke="#75b9ff" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <pattern id="large-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" stroke="#75b9ff" stroke-opacity=".13" stroke-width="1"/>
+    </pattern>
+    <g id="gear">
+      <g fill="#72baff" fill-opacity=".09" stroke="#8ac9ff" stroke-opacity=".48" stroke-width="2">
+        <rect x="-7" y="-68" width="14" height="24" rx="2"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(30)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(60)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(90)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(120)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(150)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(180)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(210)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(240)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(270)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(300)"/>
+        <rect x="-7" y="-68" width="14" height="24" rx="2" transform="rotate(330)"/>
+        <circle r="51"/>
+        <circle r="34"/>
+        <circle r="11"/>
+      </g>
+      <g stroke="#8ac9ff" stroke-opacity=".38" stroke-width="2">
+        <path d="M0-34V-11M0 11V34M-34 0H-11M11 0H34"/>
+        <path d="m-24-24 16 16m16 16 16 16m0-48L8-8M-8 8l-16 16"/>
+      </g>
+    </g>
+  </defs>
+
+  <path fill="url(#background)" d="M0 0h1600v420H0z"/>
+  <path fill="url(#small-grid)" d="M0 0h1600v420H0z"/>
+  <path fill="url(#large-grid)" d="M0 0h1600v420H0z"/>
+
+  <g stroke="#82c5ff" stroke-opacity=".48" stroke-width="3">
+    <path d="M0 360h1600M0 378h1600"/>
+    <path d="M54 360V80h30v280M69 80 245 40l238 40M69 108h383M69 153h383M69 198h383M69 243h383M69 288h383"/>
+    <path d="m96 80 68 280m-22-280 68 280m-22-280 68 280m-22-280 68 280m-22-280 68 280m-22-280 68 280"/>
+    <path d="M245 40v40m-12-40h24M483 80v35m-12-35h24"/>
+    <path d="M39 80h20m-20 280h20m395-280h29m-29 280h29"/>
+  </g>
+  <g stroke="#82c5ff" stroke-opacity=".32" stroke-width="2">
+    <path d="M28 52h460M28 47v10m460-10v10M508 28v338M503 28h10m-10 338h10"/>
+    <path d="M560 52h952v300H560zM585 75h905v253H585z"/>
+    <path d="M610 75v253m140-253v253m140-253v253m140-253v253m140-253v253m140-253v253"/>
+    <path d="M585 135h905m-905 64h905m-905 64h905"/>
+    <path d="M1130 75v253m180-253v253m180-253v253"/>
+  </g>
+
+  <g stroke="#82c5ff" stroke-opacity=".4" stroke-width="2">
+    <path d="M670 346v-80l34-34 34 34v80m-68-42h68m-68 20h68"/>
+    <path d="M683 266h42v38h-42zM695 266v38m18-38v38"/>
+    <path d="M704 232v-22m-10 0h20m-10 0-44-44m44 44 44-44"/>
+    <path d="M660 165h88m-88-8h88m-74-8h60"/>
+  </g>
+
+  <g transform="translate(860 195) scale(1.05)">
+    <use href="#gear"/>
+  </g>
+  <g transform="translate(1050 286) scale(.62)">
+    <use href="#gear"/>
+  </g>
+  <g transform="translate(1390 118) scale(.72)">
+    <use href="#gear"/>
+  </g>
+
+  <g fill="#9bd1ff" fill-opacity=".62" font-family="monospace">
+    <text x="590" y="46" font-size="15" letter-spacing="3">STRUCTURAL SYSTEMS / DETAIL 04</text>
+    <text x="600" y="112" font-size="13">LOAD = MASS × GRAVITY</text>
+    <text x="600" y="309" font-size="13">Ø 2400  /  SCALE 1:100</text>
+    <text x="1180" y="347" font-size="13">PLAN · SECTION · ELEVATION</text>
+    <text x="1090" y="67" font-size="14">Σ F = 0</text>
+    <text x="1455" y="106" font-size="12">N</text>
+  </g>
+  <g stroke="#82c5ff" stroke-opacity=".5" stroke-width="2">
+    <path d="M600 55h260m-260 5h160M600 324h215m-215 5h140"/>
+    <path d="M1525 70v40m-8-32 8-8 8 8"/>
+    <path d="M1180 335h310m-310 18h310"/>
+    <circle cx="1530" cy="128" r="30"/>
+    <path d="M1530 91v74m-37-37h74m-63-26 52 52m0-52-52 52"/>
+  </g>
+</svg>

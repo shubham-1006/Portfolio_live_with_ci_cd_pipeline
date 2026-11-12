@@ -1,0 +1,27 @@
+@media (min-width: 760px) {
+  .yt-banner { height: 260px; }
+  .yt-profile-row { margin-top: -72px; }
+  .profile-photo-wrap { width: 150px; height: 150px; }
+  .project-list { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .roadmap::before,
+  .roadmap::after { left: 14px; transform: none; }
+  .rm-item,
+  .rm-item:nth-child(odd),
+  .rm-item:nth-child(even) {
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 44px 46px;
+  }
+  .rm-item:nth-child(odd) .rm-marker,
+  .rm-item:nth-child(even) .rm-marker { left: 1px; right: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+  .eyebrow .pulse { animation: none; }
+}

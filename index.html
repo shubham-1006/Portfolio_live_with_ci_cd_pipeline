@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Bhardwaj — Cloud &amp; DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <div class="logo"><span class="logo-dot"></span>Shubham Bhardwaj</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="yt-banner">
+      <div class="wrap banner-content">
+        <div class="banner-copy">
+          <p class="banner-kicker">ENGINEERING · CLOUD · DEVOPS</p>
+          <p class="banner-title">Shubham Bhardwaj</p>
+        </div>
+      </div>
+    </div>
+    <div class="wrap yt-profile-row">
+      <div class="profile-photo-wrap">
+        <img src="assets/images/profile.jpg" alt="Shubham Bhardwaj" class="profile-photo">
+      </div>
+      <div class="yt-identity">
+        <div class="yt-name">Shubham Bhardwaj</div>
+        <div class="yt-role"><span>Cloud &amp; DevOps Engineer</span> · AI/ML Enthusiast</div>
+      </div>
+    </div>
+
+    <section class="hero wrap hero-section">
+      <div class="eyebrow"><span class="pulse"></span>Open to internship opportunities</div>
+      <h1>Building reliable systems with <span class="grad">Cloud &amp; DevOps</span></h1>
+      <p class="hero-sub">I'm Shubham, a B.Tech CSE (AI/ML) student exploring cloud infrastructure, automation, and intelligent applications.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact me</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>2028</b>Expected graduation</div>
+        <div><b>Cloud</b>Areas of focus</div>
+        <div><b>AI/ML</b>Building and learning</div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap reveal">
+      <div class="section-head"><h2>About me</h2></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a Computer Science undergraduate specializing in AI and Machine Learning, with a growing focus on <span class="highlight">cloud computing and DevOps.</span></p>
+          <p>I enjoy learning by building—working with tools like Git, Docker, Jenkins, and Kubernetes while exploring how AI can solve practical problems.</p>
+        </div>
+        <button class="btn btn-ghost facts-toggle" id="factsToggleBtn" onclick="togglePanel('factsPanel', 'factsToggleBtn')" aria-expanded="false">Quick facts ↓</button>
+        <div class="facts-panel" id="factsPanel">
+          <div class="fact-card">
+            <div class="fact-row"><span>Degree</span><span>B.Tech CSE (AI/ML)</span></div>
+            <div class="fact-row"><span>Duration</span><span>2024 – 2028</span></div>
+            <div class="fact-row"><span>Focus</span><span>Cloud · DevOps</span></div>
+            <div class="fact-row"><span>Age</span><span>19</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="wrap reveal">
+      <div class="section-head"><h2>Education &amp; journey</h2></div>
+      <div class="roadmap">
+        <div class="rm-item">
+          <div class="rm-marker"></div>
+          <div class="rm-card">
+            <div class="rm-year">2024</div>
+            <div class="rm-title">Started B.Tech CSE (AI &amp; ML)</div>
+            <div class="rm-desc">Began my undergraduate journey, building a foundation in programming, data structures, and core AI/ML concepts.</div>
+          </div>
+        </div>
+        <div class="rm-item active">
+          <div class="rm-marker"></div>
+          <div class="rm-card">
+            <div class="rm-year">2026</div>
+            <div class="rm-title">First Internship — Cloud &amp; DevOps</div>
+            <div class="rm-desc">Stepping into industry with a Cloud &amp; DevOps internship, applying Git, Docker, Jenkins, and Kubernetes to real deployment workflows.</div>
+          </div>
+        </div>
+        <div class="rm-item">
+          <div class="rm-marker"></div>
+          <div class="rm-card">
+            <div class="rm-year">2028</div>
+            <div class="rm-title">Expected Graduation</div>
+            <div class="rm-desc">Set to graduate with a strong portfolio of AI and cloud infrastructure projects, ready for a full-time engineering role.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="wrap reveal">
+      <div class="section-head"><h2>Skills</h2></div>
+      <div class="skill-groups">
+        <div class="skill-group" id="sg-lang">
+          <button class="skill-toggle" onclick="toggleSkill('sg-lang')" aria-expanded="false">
+            <span class="label-left"><span class="bar bar-cyan"></span>Programming Languages</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <div class="skill-panel"><div class="chip-row"><span class="chip">Python</span><span class="chip">C</span><span class="chip">C++</span></div></div>
+        </div>
+        <div class="skill-group" id="sg-cloud">
+          <button class="skill-toggle" onclick="toggleSkill('sg-cloud')" aria-expanded="false">
+            <span class="label-left"><span class="bar bar-violet"></span>Cloud &amp; DevOps</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <div class="skill-panel"><div class="chip-row"><span class="chip">Git</span><span class="chip">Docker</span><span class="chip">Jenkins</span><span class="chip">Kubernetes</span><span class="chip">Cloud Fundamentals</span></div></div>
+        </div>
+        <div class="skill-group" id="sg-ai">
+          <button class="skill-toggle" onclick="toggleSkill('sg-ai')" aria-expanded="false">
+            <span class="label-left"><span class="bar bar-amber"></span>AI / ML Interests</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <div class="skill-panel"><div class="chip-row"><span class="chip">Machine Learning</span><span class="chip">NLP basics</span><span class="chip">Predictive Modeling</span></div></div>
+        </div>
+        <div class="skill-group" id="sg-soft">
+          <button class="skill-toggle" onclick="toggleSkill('sg-soft')" aria-expanded="false">
+            <span class="label-left"><span class="bar bar-teal"></span>Soft Skills</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <div class="skill-panel"><div class="chip-row"><span class="chip">Leadership</span><span class="chip">Team Collaboration</span><span class="chip">Fast Learner</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="wrap reveal">
+      <div class="section-head"><h2>Projects</h2></div>
+      <div class="project-list">
+        <div class="project-card violet" id="pc-stock">
+          <span class="project-title">AI Stock Bot</span>
+          <div class="project-tags"><span>Python</span><span>Machine Learning</span><span>Data Analysis</span></div>
+          <div class="arrow-3d">↓</div>
+          <button class="know-more-btn" onclick="toggleProject('pc-stock')" aria-expanded="false">Know more about this</button>
+          <div class="project-desc-panel">
+            <p class="project-desc">An AI-powered stock market assistant that analyzes historical price data and market trends to generate buy/sell signals. Built using Python, it applies machine learning models to identify patterns and support smarter, data-driven investment decisions.</p>
+          </div>
+        </div>
+        <div class="project-card teal" id="pc-mind">
+          <span class="project-title">MindEase AI</span>
+          <div class="project-tags"><span>Python</span><span>NLP</span><span>AI for Good</span></div>
+          <div class="arrow-3d">↓</div>
+          <button class="know-more-btn" onclick="toggleProject('pc-mind')" aria-expanded="false">Know more about this</button>
+          <div class="project-desc-panel">
+            <p class="project-desc">An AI-based mental wellness companion designed to support users through mood tracking and conversational check-ins. It uses natural language processing to gently gauge emotional state and suggest simple, supportive coping resources — built with care as a supplement to, not a replacement for, professional help.</p>
+          </div>
+        </div>
+        <div class="project-card teal" id="pc-farming">
+          <span class="project-title">SmartFarming</span>
+          <div class="project-tags"><span>AI</span><span>IoT</span><span>Computer Vision</span><span>Predictive Analytics</span><span>Smart Irrigation</span></div>
+          <div class="arrow-3d">↓</div>
+          <button class="know-more-btn" onclick="toggleProject('pc-farming')" aria-expanded="false">Know more about this</button>
+          <div class="project-desc-panel">
+            <p class="project-desc">An AI and IoT-powered agriculture solution designed to optimize crop yields and resource management through real-time soil health monitoring and predictive analytics. It uses computer vision to detect early-stage crop diseases and automates irrigation based on live weather data—built to empower farmers with data-driven insights for sustainable and high-efficiency farming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap reveal">
+      <div class="section-head"><h2>Get in touch</h2></div>
+      <div class="contact-grid">
+        <div class="contact-text">
+          <p>I'm open to internship opportunities, collaborations, and interesting conversations about AI, cloud, and DevOps. Reach out anytime — I typically respond within a day or two.</p>
+          <div class="contact-links">
+            <a href="mailto:shubhambhardwaj1757@gmail.com"><span class="icon">✉</span>shubhambhardwaj1757@gmail.com</a>
+            <a href="https://github.com/shubham-1006" target="_blank" rel="noopener"><span class="icon">⌥</span>github.com/shubham-1006</a>
+            <a href="https://linkedin.com/in/shubham-bhardwaj-43201b305" target="_blank" rel="noopener"><span class="icon">in</span>linkedin.com/in/shubham-bhardwaj-43201b305</a>
+            <a href="https://instagram.com/shubu_vnm7" target="_blank" rel="noopener"><span class="icon">◎</span>@shubu_vnm7</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <span>© 2026 Shubham Bhardwaj. All rights reserved.</span>
+      <a href="#" class="back-top">back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
